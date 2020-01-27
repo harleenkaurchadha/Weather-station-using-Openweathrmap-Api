@@ -2,13 +2,10 @@
 #include<ESP8266WiFi.h>
 #include<ArduinoJson.h>
 
-const char* ssid="StayOff";
-const char* pass="72supdal72";
-//const char* ssid="Harleen's iPhone";
-//const char* pass="123456789";
+const char* ssid="wifissid";
+const char* pass="wifipassword";
 
 const char* server="api.openweathermap.org";
-//LiquidCrystal_I2C lcd(0x27,16,2);
 LiquidCrystal lcd(12,13,16,5,4,0);    //rst,en,D4,D3,D2,D1
 
 WiFiClient client;
